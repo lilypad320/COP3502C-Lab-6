@@ -1,3 +1,4 @@
+# Elizabeth Rush
 run = True
 while run:
     print('Menu\n-------------\n1.Encode\n2.Decode\n3.Quit')
@@ -6,7 +7,6 @@ while run:
         print('Please enter your password to encode:', end=' ')
         password_string = input()
         encoded_list = [int(i) for i in str(password_string)]
-        print(encoded_list)
         new_list = []
         for num in encoded_list:
             new_list.append(num + 3)
